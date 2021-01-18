@@ -1,6 +1,8 @@
 +++
 author = "JuliaCon"
 
+prepath = "www.juliacon.org"        # remove this when deploying
+
 year       = "2021"
 location   = "Everywhere on Earth"
 site_name  = "JuliaCon $year"
