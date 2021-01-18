@@ -20,15 +20,8 @@ jobs:
     - name: Install dependencies listed in Project.toml and build package
       uses: julia-actions/julia-buildpkg@master
     - run: julia --project -e '
-            using NodeJS, Franklin;
-            run(`$(npm_cmd()) install purgecss`);
-            optimize(minify=false, prerender=false);
-            io = IOBuffer();
-            run(pipeline(`$(NodeJS.npm_cmd()) root`, stdout=io));
-            if false;
-              nodepath = String(take!(io));
-              run(`$(strip(nodepath))/purgecss/bin/purgecss.js --css __site/css/bootstrap.min.css --content __site/index.html --output __site/css/bootstrap.min.css`);
-            end;'
+            using Franklin;
+            optimize(minify=false, prerender=false);'
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
