@@ -19,7 +19,7 @@ jobs:
         version: 1.5
     - run: julia -e '
             using Pkg; Pkg.add(["Franklin", "FranklinUtils"]);
-            Pkg.instantiate(".");
+            Pkg.instantiate();
             using Franklin;
             optimize(minify=false, prerender=false);'
     - name: Build and Deploy
