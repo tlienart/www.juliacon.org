@@ -13,6 +13,7 @@ function _box(md; title="", color="purple")
             <h2>$title</h2>
         """) * md * html("""
           </div>
+          <div class="u-vskip-2"></div>
         </div>
         """)
 end
