@@ -12,8 +12,8 @@ WIP Migration to [Franklin.jl](https://github.com/tlienart/Franklin.jl).
   * [x] committee
   * [x] sponsor
   * [x] register (tickets/)
-  * [ ] proposal (not there yet)
-  * [ ] schedule (not there yet)
+  * [x] proposal (not there yet)
+  * [x] schedule (not there yet)
 
 
 ## Need help with
