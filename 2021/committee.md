@@ -10,4 +10,4 @@
 
 ---
 
-The JuliaCon committee is composed entirely of volunteer organizers and can be reached at [juliacon@julialang.org](mailto:juliacon@julialang.org) with any questions or comments. 
+The JuliaCon committee is composed entirely of volunteer organizers and can be reached at \email with any questions or comments. 
