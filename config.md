@@ -14,3 +14,6 @@ mintoclevel = 2
 ignore = ["_bk/", "_sbx.html"]
 content_tag = ""
 +++
+
+\newcommand{\vskip}{@@u-vskip-3 @@}
+\newcommand{\email}{[juliacon@julialang.org](mailto:juliacon@julialang.org)}

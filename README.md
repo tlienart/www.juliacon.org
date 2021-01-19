@@ -2,6 +2,20 @@
 
 WIP Migration to [Franklin.jl](https://github.com/tlienart/Franklin.jl).
 
+## Migrated
+
+**NOTE** verify that there are no missing page!
+
+* [x] 2021
+  * [x] landing
+  * [x] coc
+  * [x] committee
+  * [x] sponsor
+  * [x] register (tickets/)
+  * [ ] proposal (not there yet)
+  * [ ] schedule (not there yet)
+
+
 ## Need help with
 
 ### Twitter image
@@ -13,6 +27,8 @@ There was:
 ```
 
 However that's missing. Same with `og:image`.
+
+**Note**: reached out to @cormullion who sent me the relevant (temporary?) file.
 
 ### CSS overload
 
