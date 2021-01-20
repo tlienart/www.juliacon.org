@@ -3,6 +3,7 @@ author = "JuliaCon"
 
 prepath = "www.juliacon.org"        # remove this when deploying
 
+# Used for the metadata (open graph)
 year       = "2021"
 location   = "Everywhere on Earth"
 site_name  = "JuliaCon $year"
@@ -16,4 +17,5 @@ content_tag = ""
 +++
 
 \newcommand{\vskip}{@@u-vskip-3 @@}
+\newcommand{\vskipm}{@@u-vskip-2 @@}
 \newcommand{\email}{[juliacon@julialang.org](mailto:juliacon@julialang.org)}

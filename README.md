@@ -15,6 +15,21 @@ WIP Migration to [Franklin.jl](https://github.com/tlienart/Franklin.jl).
   * [x] proposal (not there yet)
   * [x] schedule (not there yet)
 
+* [ ] 2020
+  * [ ] landing page
+    * [x] bulk
+    * [ ] sponsors
+  * [ ] prize
+  * [ ] committee
+  * [ ] navbar + links
+  * [ ] tickets
+  * [ ] sponsor
+  * [ ] live schedule
+  * [ ] volunteer
+  * [ ] accessibility
+  * [ ] FAQ
+  * [ ] Upload
+
 
 ## Need help with
 

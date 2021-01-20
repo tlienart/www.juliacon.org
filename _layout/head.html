@@ -35,7 +35,32 @@
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/style.css">
 
-  {{ispage /2021/*}}{{insert 2021.html}}{{end}}
+  {{ispage /2021/*}}
+  <style>
+    @media (min-width: 0px) {
+        .main-heading { background-image: url('../assets/2021/img/world_768.png'); }}
+    @media (min-width: 768px) {
+        .main-heading { background-image: url('../assets/2021/img/world_1400.png'); }}
+    @media (min-width: 1200px) {
+        .main-heading { background-image: url('../assets/2021/img/world_2800.png'); }}
+    .main-heading h2 { color: black; }
+    .main-menu { background-color: #389826}
+  </style>
+  {{end}}
+
+  {{ispage /2020/*}}
+  <style>
+    @media (min-width: 0px) {
+        .main-heading { background-image: url('../assets/2020/img/world_768.png'); }}
+    @media (min-width: 768px) {
+        .main-heading { background-image: url('../assets/2020/img/world_1400.png'); }}
+    @media (min-width: 1200px) {
+        .main-heading { background-image: url('../assets/2020/img/world_2800.png'); }}
+    .main-heading h2 { color: #4366d0; }
+    .main-menu { background-color: #9558b2}
+  </style>
+  {{end}}
+
 
   <!-- misc scripts -->
   <script src="https://use.typekit.net/orl3mkt.js"></script>
@@ -50,13 +75,18 @@
   <div class="container-fluid earlybird">
     <div class="container">
       <div class="alert">
+        {{ispage /2020/*}}
+          Check out the JuliaCon 2020 <a href="https://www.youtube.com/playlist?list=PLP8iPy9hna6Tl2UHTrm4jnIYrLkIcAROR">videos</a> | Julia Community Prizes <a href="/2020/prize/">announced</a>!
+        {{end}}
       </div>
     </div>
   </div>
 
   {{insert nav_year.html}}
 
-  {{ispage /2021/index.html}}{{insert title_year.html}}{{end}}
+  {{ispage /2021/index.html /2020/index.html}}
+    {{insert title_year.html}}
+  {{end}}
 
   {{insert nav.html}}
 
