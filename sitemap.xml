@@ -2,56 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
+    <loc>2020/tickets/index.html</loc>
+    <lastmod>2021-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>2020/committee/index.html</loc>
+    <lastmod>2021-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>404/index.html</loc>
-    <lastmod>2021-01-19</lastmod>
+    <lastmod>2021-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>2021/committee/index.html</loc>
-    <lastmod>2021-01-19</lastmod>
+    <lastmod>2021-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>2021/sponsor/index.html</loc>
-    <lastmod>2021-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>2021/schedule/index.html</loc>
-    <lastmod>2021-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>2021/index.html</loc>
-    <lastmod>2021-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>2021/proposal/index.html</loc>
-    <lastmod>2021-01-19</lastmod>
+    <lastmod>2021-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>2021/tickets/index.html</loc>
-    <lastmod>2021-01-19</lastmod>
+    <lastmod>2021-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>2021/schedule/index.html</loc>
+    <lastmod>2021-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>2021/proposal/index.html</loc>
+    <lastmod>2021-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>2020/prize/index.html</loc>
+    <lastmod>2021-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>2020/index.html</loc>
+    <lastmod>2021-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>2021/coc/index.html</loc>
-    <lastmod>2021-01-19</lastmod>
+    <lastmod>2021-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>2021/index.html</loc>
+    <lastmod>2021-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>index/</loc>
-    <lastmod>2021-01-19</lastmod>
+    <lastmod>2021-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
