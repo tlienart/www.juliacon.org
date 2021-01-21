@@ -2,18 +2,25 @@
 
 WIP Migration to [Franklin.jl](https://github.com/tlienart/Franklin.jl).
 
+Forked at d542df4792fb409d3546d7a5ff3fd59b131b4761
+
 ## Migrated
 
 **NOTE** verify that there are no missing page!
 
 * [x] 2021
-  * [x] landing
+  * [x] cfp (might need update)
   * [x] coc
   * [x] committee
+  * [x] faq (might need update)
+  * [x] index (landing page)
+  * [x] prize (might need update)
+  * [x] proposal
+  * [x] schedule
   * [x] sponsor
-  * [x] register (tickets/)
-  * [x] proposal (not there yet)
-  * [x] schedule (not there yet)
+  * [x] tickets
+  * [x] upload (might need update)
+  * [x] volunteer
 
 * [ ] 2020
   * [ ] landing page
