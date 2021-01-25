@@ -1,12 +1,6 @@
 using FranklinUtils
 
-function env_box(e, _)
-    md = Franklin.content(e)
-    _, kwargs = lxargs(lxproc(e), "box")
-    return _box(md; kwargs...)
-end
-
-function _box(md; title="", color="purple")
+@env function box(md; title="", color="purple")
     return html("""
         <div class="grid-item col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-2">
           <div class="content-box $color-box">
@@ -18,12 +12,7 @@ function _box(md; title="", color="purple")
         """)
 end
 
-function lx_avatar(lxc, _)
-    _, kwargs = lxargs(lxc)
-    return _avatar(; kwargs...)
-end
-
-function _avatar(; link="", img="", name="", affil="")
+@lx function avatar(; link="", img="", name="", affil="")
     return html("""
         <div class="u-vskip-3"></div>
         <div class="header-talks avatar-talks">
@@ -64,3 +53,58 @@ function hfun_previous_editions()
         </div>
         """
 end
+
+@env function centered(md; title="Gold")
+    return html("""
+        <h2 align="center">$title</h2>
+        <div class="d-flex flex-wrap justify-content-center align-items-center">
+        """) * md * html("""
+        </div>
+        """)
+end
+
+@lx function sponsor(; link="", img="", name="", level=1)
+    return html("""
+            <div class="p-4">
+              <a href="$link">
+              <img src="$img" alt="$name"  class="sponsors_img_l$level"/>
+              </a>
+            </div>
+            """)
+end
+
+@lx function media(; link="", img="", name="")
+    return html("""
+                <div class="p-4">
+                  <a href="$link">
+                    <img src="$img" alt="$name" class="sponsors_img_l3"/>
+                  </a>
+                </div>
+                """)
+end
+
+#
+#
+# function env_sponsors(e, _)
+#     md = Franklin.content(e)
+#     _, kwargs = lxargs(lxproc(e), "box")
+#     return _box(md; kwargs...)
+# end
+#
+# function env_box(e, _)
+#     md = Franklin.content(e)
+#     _, kwargs = lxargs(lxproc(e), "box")
+#     return _box(md; kwargs...)
+# end
+#
+# function _box(md; title="", color="purple")
+#     return html("""
+#         <div class="grid-item col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-2">
+#           <div class="content-box $color-box">
+#             <h2>$title</h2>
+#         """) * md * html("""
+#           </div>
+#           <div class="u-vskip-2"></div>
+#         </div>
+#         """)
+# end
