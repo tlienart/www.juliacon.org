@@ -7,7 +7,7 @@ Please upload the content by the 16th of July 2020.
 
 ~~~
 <div id="upload-container">
-  <iframe src="https://live.juliacon.org/upload" width='100%' height='400px'></iframe>
+  <iframe src="//juliacon2020.now.sh/upload" width='100%' height='400px'></iframe>
 </div>
 ~~~
 
