@@ -95,3 +95,57 @@ top_link = "live.juliacon.org/live"
   </div>
 </div>
 ~~~
+
+
+~~~
+<div style="height:30px;display:block;"></div>
+<div class="container-fluid">
+  <div class="container sponsors">
+    <h1 align="center">Sponsors</h1>
+~~~
+
+\begin{centered}{title="Gold"}
+
+  \sponsor{name="Gordon and Betty Moore Foundation", link="https://www.moore.org/", img="/assets/2020/img/sponsors/moore.jpg", level=2}
+
+  \sponsor{name="Julia Computing", link="https://juliacomputing.com/", img="/assets/2020/img/sponsors/julia.png", level=2}
+
+\end{centered}
+
+\begin{centered}{title="Silver"}
+
+  \sponsor{name="Invenia", link="https://www.invenia.ca/", img="/assets/2020/img/sponsors/invenia-labs.png", level=3}
+
+  \sponsor{name="Jeffrey Sarnoff", link="https://www.linkedin.com/in/jeffreysarnoff/", img="/assets/2020/img/sponsors/sarnoff.png", level=3}
+
+  \sponsor{name="Juspay", link="https://juspay.in", img="/assets/2020/img/sponsors/juspay.png", level=3}
+
+  \sponsor{name="Pumas AI", link="https://pumas.ai", img="/assets/2020/img/sponsors/pumas.png", level=3}
+
+  \sponsor{link="https://www.zapatacomputing.com/", img="/assets/2020/img/sponsors/zapata.png", name="Zapata Computing", level=3}
+
+  \sponsor{link="https://repl.it", img="/assets/2020/img/sponsors/repl-it.png", name="repl.it", level=3}
+
+\end{centered}
+
+\begin{centered}{title="Media partners"}
+
+  \sponsor{name="Packt", img="/assets/2020/img/sponsors/packt.png", link="https://www.packtpub.com/", level=3}
+
+  \sponsor{link="https://mule.to/pd5", img="/assets/2020/img/sponsors/sticker-mule.png", name="Sticker Mule", level=3}
+
+  \sponsor{link="https://vercel.com/?utm_source=juliacon", img="/assets/2020/img/sponsors/vercel.png", name="Vercel", level=3}
+
+\end{centered}
+
+\begin{centered}{title="With the help of the julia project’s fiscal sponsor:"}
+
+  \sponsor{link="https://numfocus.org", img="/assets/2020/img/sponsors/numfocus.png", name="NumFOCUS", level=3}
+
+\end{centered}
+
+~~~
+  </div>
+</div>
+<div style="height:20px;display:block;"></div>
+~~~
