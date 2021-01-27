@@ -13,3 +13,4 @@ Preview: https://tlienart.github.io/www.juliacon.org/
 * [ ] some of the nav links of 2020 lead to empty or failing pages
   * [ ] /tickets/
   * [ ] /upload/
+  * [ ] /prize/
