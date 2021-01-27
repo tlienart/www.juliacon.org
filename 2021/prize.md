@@ -6,6 +6,8 @@ The Julia Community Prizes have been announced. A certificate of accomplishement
 
 Our congratulations to the winners, and our thanks to the committee.
 
+\vskip
+
 ## Awards Committee
 
 The members of the committee for 2021 continue to be Prof Alan Edelman, MIT; Prof Tim Holy, WU; and Mr Curtis Vogt, Invenia.

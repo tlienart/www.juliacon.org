@@ -10,7 +10,7 @@ Preview: https://tlienart.github.io/www.juliacon.org/
 
 * [x] list of sponsors missing from 2020 page
 * [x] sublinks in 2017/2018 don't seem to work (e.g. Schedule, same in 2016 etc)
-* [ ] some of the nav links of 2020 lead to empty or failing pages
-  * [ ] /tickets/
-  * [ ] /upload/
-  * [ ] /prize/
+* [x] some of the nav links of 2020 lead to empty or failing pages
+  * [x] /tickets/
+  * [x] /upload/
+  * [x] /prize/
